@@ -12,12 +12,12 @@ function Goods({ phone, handleAddToCart }) {
             <p>{item.name}</p>
           </div>
           <div className="goods__cost">
-            <p>{item.cost} tenge</p>
+            <p>{item.cost.toLocaleString()} tenge</p>
           </div>
           <div className="goods__discription">
             <p>
               Contract for {item.period} month from
-              <span> {Math.round(item.cost / item.period)} tenge</span>
+              <span> {Math.round(item.cost / item.period).toLocaleString()} tenge</span>
             </p>
           </div>
           <div className="goods__button" onClick={() => handleAddToCart(item.id)}>

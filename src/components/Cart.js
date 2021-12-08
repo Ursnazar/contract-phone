@@ -41,19 +41,19 @@ function Cart({
           </div>
           <div className="cart__text">
             <div className="cart__name">Model: {item.name}</div>
-            <div className="cart__cost">Cost: {item.cost} tenge</div>
+            <div className="cart__cost">Cost: {item.cost.toLocaleString()} tenge</div>
             <div className="cart__discription">
               <div className="cart__contract">
                 <p>
                   Contract for {item.period} month from
-                  <span> {Math.round(item.cost / item.period)} tenge</span>
+                  <span> {Math.round(item.cost / item.period).toLocaleString()} tenge</span>
                 </p>
               </div>
               <div className="cart__button" onClick={hahdleCheckoutOn}>
                 CHECKOUT CONTRACT
               </div>
             </div>
-            <div className="cart__total">Total: {item.cost} tenge</div>
+            <div className="cart__total">Total: {item.cost.toLocaleString()} tenge</div>
           </div>
         </div>
       ))}
@@ -98,15 +98,19 @@ function Cart({
             <div className="cart__details">
               <div className="cart__amount">
                 <p className="cart__detailstitle">Contract total amount</p>
-                <h2 className="cart__cost">{item.cost} tenge</h2>
+                <h2 className="cart__cost">{Math.trunc(item.cost).toLocaleString()} tenge</h2>
               </div>
               <div className="cart__amount">
                 <p className="cart__detailstitle">Monthly payment</p>
-                <h2 className="cart__cost">{Math.round(item.cost / item.period)} tenge</h2>
+                <h2 className="cart__cost">
+                  {Math.round(item.cost / item.period).toLocaleString()} tenge
+                </h2>
               </div>
               <div className="cart__amount">
                 <p className="cart__detailstitle">Down payment</p>
-                <h2 className="cart__cost">{item.downPayment} tenge</h2>
+                <h2 className="cart__cost">
+                  {Math.trunc(item.downPayment).toLocaleString()} tenge
+                </h2>
               </div>
               <div className="cart__button">BUY</div>
             </div>
