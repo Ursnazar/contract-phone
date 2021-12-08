@@ -1,0 +1,98 @@
+export const phone = [
+  {
+    id: 1,
+    name: 'Apple iPhone 12 Purple, 64 GB',
+    img:
+      'https://activ.kz/shop/media/__sized__/products/WWRU_iPhone12_Q321_Purple_PDP-Image-1B-thumbnail-255x255-90.jpg',
+    cost: 424890,
+    period: 24,
+    downPayment: 0,
+    internet: 50,
+  },
+  {
+    id: 2,
+    name: 'Galaxy A52 Lavender, 128 GB',
+    img:
+      'https://activ.kz/shop/media/__sized__/products/A52_0016_SM_A525_GalaxyA52_Awesome_White_Front-thumbnail-255x255-90.jpg',
+    cost: 179990,
+    period: 24,
+    downPayment: 0,
+    internet: 50,
+  },
+  {
+    id: 3,
+    name: 'Galaxy Z Fold 3 Green, 256 GB',
+    img:
+      'https://activ.kz/shop/media/__sized__/products/%D0%91%D0%B5%D0%B7_%D0%B8%D0%BC%D0%B5%D0%BD%D0%B8-1_0007_sm-f926_zfold3_5g_openback_phantomgreen_210602-thumbnail-540x540-90.jpg',
+    cost: 899990,
+    period: 24,
+    downPayment: 0,
+    internet: 50,
+  },
+  {
+    id: 4,
+    name: 'Xiaomi Poco M3 Power Black, 64 GB',
+    img:
+      'https://activ.kz/shop/media/__sized__/products/J19C-Black-%E6%AD%A3-thumbnail-540x540.png',
+    cost: 69990,
+    period: 24,
+    downPayment: 0,
+    internet: 50,
+  },
+  {
+    id: 5,
+    name: 'Galaxy S20 Plus Gray, 128 GB',
+    img: 'https://activ.kz/shop/media/__sized__/products/20gray_fWiN5E9-thumbnail-540x540-90.jpg',
+    cost: 319990,
+    period: 24,
+    downPayment: 0,
+    internet: 50,
+  },
+  {
+    id: 6,
+    name: 'OPPO Reno 5 Fantasy Silver, 128 GB',
+    img: 'https://activ.kz/shop/media/__sized__/products/Group-1-thumbnail-540x540-90.jpg',
+    cost: 199990,
+    period: 24,
+    downPayment: 0,
+    internet: 50,
+  },
+  {
+    id: 7,
+    name: 'OPPO A74 Prism Black, 128 GB',
+    img: 'https://activ.kz/shop/media/__sized__/products/2_3T2fLmu-thumbnail-540x540-90.jpg',
+    cost: 139990,
+    period: 24,
+    downPayment: 0,
+    internet: 50,
+  },
+  {
+    id: 8,
+    name: 'Xiaomi Redmi 9T Gray, 64 GB',
+    img:
+      'https://activ.kz/shop/media/__sized__/products/J19s-Black-%E6%AD%A3%E9%9D%A2-thumbnail-540x540.png',
+    cost: 64990,
+    period: 24,
+    downPayment: 0,
+    internet: 50,
+  },
+  {
+    id: 9,
+    name: 'Galaxy A22 White, 128 GB',
+    img:
+      'https://activ.kz/shop/media/__sized__/products/img_0_77_3054_1_1-thumbnail-540x540-90.jpg',
+    cost: 109990,
+    period: 24,
+    downPayment: 0,
+    internet: 50,
+  },
+  {
+    id: 10,
+    name: 'OPPO Reno 5 Lite Fantastic Purple, 128 GB',
+    img: 'https://activ.kz/shop/media/__sized__/products/4-2-thumbnail-540x540-90.jpg',
+    cost: 159990,
+    period: 24,
+    downPayment: 0,
+    internet: 50,
+  },
+];
